@@ -6,4 +6,4 @@
 3. Lineáris keresés (rendezetlen és rendezett esetben)
 4. Hash tábla kezelése. Input: hash méret, értékek. Output: hash tábla (opcionális)
 5. Láncolt lista. 'CRUD' (opcionális)
-1. 6. Fa postorder bejárása (opcionális)
+6. Fa postorder bejárása (opcionális)
