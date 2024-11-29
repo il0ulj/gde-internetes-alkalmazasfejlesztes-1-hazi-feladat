@@ -19,7 +19,7 @@ while (true)
     }
     else
     {
-        Console.WriteLine("Kérlek csak egy karaktert adj meg!");
+        Console.WriteLine("Kérlek csak egy karaktert adj meg!\n");
     }
 
 }
@@ -42,3 +42,16 @@ Console.WriteLine("Nyomj egy gombot a folytatáshoz!");
 Console.ReadLine();
 
 Console.WriteLine("########## 2. feladat ##########");
+
+/* 2. feladat */
+
+Console.WriteLine("Kérlek adj meg egy szöveget:");
+string megadottKarakter2 = Console.ReadLine();
+
+string rendezettKarakter = new string(megadottKarakter2.OrderBy(c => c).ToArray());
+
+Console.WriteLine("Rendezett karakterek:");
+Console.WriteLine(rendezettKarakter);
+
+Console.WriteLine("Nyomj egy gombot a folytatáshoz!");
+Console.ReadLine();
