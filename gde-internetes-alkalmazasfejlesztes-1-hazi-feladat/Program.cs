@@ -1,8 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-/* Kellenek az speckó karakterek */
-
-Console.OutputEncoding = System.Text.Encoding.UTF8;
+﻿Console.OutputEncoding = System.Text.Encoding.UTF8;
 
 /* Választó menü */
 
@@ -69,7 +65,7 @@ static void elsoFeladat()
     }
 
     Console.Write("Kérlek adj meg egy sztringet: ");
-    string sztring = Console.ReadLine();
+    string sztring = Console.ReadLine() ?? "";
 
     int pozicio = sztring.IndexOf(karakter);
 
@@ -147,7 +143,7 @@ static void harmadikFeladatRendezett()
     Console.WriteLine("\n########## 3. feladat (rendezett eset) ##########\n");
     Console.Write("Add meg a keresendő számot a következő rendezett tömbből [0,1,2,3,4,5,6,7,8,9]: ");
     int bekertSzam = int.Parse(Console.ReadLine());
-    
+
     int index = harmadikFeladatRendezettEset(rendezettTomb, bekertSzam);
 
     if (index != -1)
