@@ -1,4 +1,6 @@
-﻿Console.OutputEncoding = System.Text.Encoding.UTF8;
+﻿/* Kellenek a speckó karakterek */
+
+Console.OutputEncoding = System.Text.Encoding.UTF8;
 
 /* Választó menü */
 
