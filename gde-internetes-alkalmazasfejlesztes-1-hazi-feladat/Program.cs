@@ -16,9 +16,9 @@ while (true)
     Console.WriteLine("[5] - Kilépés - Pápá");
 
     Console.Write("\nLehetőség: ");
-    string choice = Console.ReadLine();
+    string valasztas = Console.ReadLine();
 
-    switch (choice)
+    switch (valasztas)
     {
         case "1":
             elsoFeladat();
