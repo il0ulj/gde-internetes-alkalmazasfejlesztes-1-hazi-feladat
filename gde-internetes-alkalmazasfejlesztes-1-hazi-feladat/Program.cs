@@ -11,7 +11,7 @@ while (true)
     Console.WriteLine("[2] - Feladat - Sztring rendezés");
     Console.WriteLine("[3] - Feladat - Lineáris keresés (rendezetlen eset)");
     Console.WriteLine("[4] - Feladat - Lineáris keresés (rendezett eset)");
-    Console.WriteLine("[5] - Kilépés - Pápá");
+    Console.WriteLine("[5] - Kilépés - Adieu");
 
     Console.Write("\nLehetőség: ");
     string valasztas = Console.ReadLine();
