@@ -36,7 +36,7 @@ while (true)
             Console.WriteLine("Kilépés...");
             return;
         default:
-            Console.WriteLine("Érvénytelen választás, próbáld meg újra!");
+            Console.WriteLine("Érvénytelen választás, próbáld meg újra!\n");
             break;
     }
 }
